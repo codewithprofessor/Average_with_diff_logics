@@ -1,0 +1,31 @@
+// avg5subject.cpp : This file contains the 'main' function. Program execution begins and ends there.
+//
+
+#include <iostream>
+using namespace std;
+int main()
+{
+        //This programm is written by ALi
+    float a, b, c, d, f;
+    cout << "Please enter marks of your  5 subjects\n";
+    cin >> a >> b >> c >> d >> f;
+    float avg = (a + b + c + d + f) / 5;
+    cout << avg<<endl;
+    if (avg >= 90)
+        cout << "You are passed with A Grade\n";
+    else
+         if (avg >= 80)
+             cout << "You are passed with B Grade\n";
+         else
+             if(avg >= 70)
+                 cout << "You are passed with C Grade\n";
+             else
+                 if (avg > 50)
+                     cout << "You are passed with D Grade\n";
+                 else 
+                    cout << "You are FAIL\n";
+                  
+
+
+}
+
